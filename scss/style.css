@@ -1,0 +1,110 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width:8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #293B5F;
+    border-radius:12px;
+}
+
+.img{
+    width: 80%;
+    height: 100px;
+    display:inline-block;
+    margin: 0 auto;
+    object-fit: contain;
+    padding-top:.5rem;
+}
+
+.yp{
+    padding-bottom: 1rem;
+}
+
+.logo{
+    text-transform: uppercase !important;
+    background-clip: text;
+    -webkit-text-fill-color: #ff4500;
+}
+.nav-item{
+    font-family: 'Poppins', sans-serif;
+    padding-left:2rem;
+    font-size:1rem;
+
+}
+
+.middle{
+    margin: auto;
+}
+
+.list-group-item{
+    background: none;
+    border: none;
+}
+
+.bi{
+   font-size:1.5rem;
+   color: #2C2E43;
+}
+
+.font-c{
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 1.4rem;
+    text-transform:capitalize;
+}
+
+.text:hover{
+    color: #fff;
+}
+
+.carousel {
+    top: 5rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.caro-img{
+    object-fit: cover!important;
+    height: 100%;
+    width: 100%;
+    display: block;
+    
+}
+
+.space{
+    position:relative !important;
+    top:8rem;
+}
+
+@media (min-width: 770px) and (max-width:990px){
+    .card-col{
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        
+    }
+}
+
+@media (min-width:990px){
+    .carousel-item{
+        height:32rem;
+    }
+}
+
+@media (max-width: 540px){
+    .small{
+        display:block!important;
+        text-align: center;
+        padding-top:1rem;
+    }
+
+}
+
+
+
+
+
